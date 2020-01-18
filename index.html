@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="FR-fr">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Hotel HOTELCOP</title>
+        <meta name="author" content="Aminata & Guillaume">
+        <meta name="description" content="">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Judson&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/trame.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        
+        <!-- MENU FIXED -->
+
+        <div class="menu">
+            <div class="fixed-top">
+                <nav class="nav1 d-none d-md-block">
+                    <div class="row centre">
+                        <ul class="row">
+                            <li class="decalage"></li>
+                            <li><a href="">T° 02/04/2020</a></li>
+                            <li class="border-right"><a href=""><img src="images/trame/logo-maps.png" alt="Localisation" class="maps"></a></li>
+                        </ul>
+                        <ul class="row">
+                            <li class="plop">
+                                <a href="">
+                                    <img src="images/trame/loupe-blanche.png" alt="Recherche" class="loupe2">
+                                    <span>Recherche</span>
+                                </a>
+                            </li>
+                            <li>
+                                <div>
+                                    <select id="pays" name="pays">
+                                            <option value="fr">Fr</option>
+                                            <option value="all">All</option>
+                                            <option value="es">Esp</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="decalage"></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="fond">
+                    <div class="container">
+                        <nav class="nav2 navbar navbar-expand-md navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                                <ul class="navbar-nav ">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            EXPERIENCES | HOTEL
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Chambres</a>
+                                        <a class="dropdown-item" href="#">Restaurant</a>
+                                        <a class="dropdown-item" href="#">Bien-être</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">OFFRES & PACKAGES</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            L'HOTEL
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Qui sommes-nous</a>
+                                        <a class="dropdown-item" href="#">Accès</a>
+                                        <a class="dropdown-item" href="#">Evénements</a>
+                                        <a class="dropdown-item" href="#">Presse</a>
+                                        <a class="dropdown-item" href="#">Contact / Carrière</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">LIVRE D'OR</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <a href="#" class="reserver d-none d-md-block">RESERVER</a>
+                    <p class="logo d-block d-md-none">HOTELCOP</p>
+                    <a href="" class="recherche d-block d-md-none"><img src="images/trame/loupe-noire.png" alt="Recherche" class="loupe"></a>
+                </div>
+            </div>
+        </div>
+
+                    <!-- ---------- -->
+                    
+        <header>
+            <div class="en-tete row flex-column">
+                <h1>HOTELCOP PARIS</h1>
+                <a href="" class="mt-4 row">
+                    <img src="images/trame/partage.png" alt="Partage" class="partage">
+                </a>
+            </div>
+        </header>
+
+        <main class="accueil container">
+            <section class="row">
+                <img src="images/tour-eiffel.jpg" class="col-md-7" alt="tour-eiffel">
+                <div class="row col-10 col-md-5 block1">
+                    <h2 class="col-md-12 text-md-left mt-md-3">Partez à la découverte de notre <span class="gold">Histoire</span></h2>
+                    <p class="col-md-9 text-md-left mt-3 mb-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="col-4">En savoir plus</a>
+                </div>
+            </section>
+
+            <section class="row">
+                <img src="images/tour-eiffel.jpg" class="col-md-7 order-md-last" alt="tour-eiffel">
+                <div class="row col-10 col-md-5 block2">
+                    <h2 class="col-md-12 text-md-right mt-md-3">Explorez sans attendre vos <span class="gold">Privilèges</span></h2>
+                    <p class="col-md-9 text-md-right mt-3 mb-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="col-4">En savoir plus</a>
+                </div>
+            </section>
+
+            <section class="row">
+                <img src="images/tour-eiffel.jpg" class="col-md-7" alt="tour-eiffel">
+                <div class="row col-10 col-md-5 block1">
+                    <h2 class="col-md-12 text-md-left mt-md-3">Nos <span class="gold">Evénements</span></h2>
+                    <p class="col-md-9 text-md-left mt-3 mb-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="col-4">En savoir plus</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="newsletter col-md-4 mb-4">
+                        <p class="mb-3">
+                            Découvrez en avant-première nos nouveautés, nos destinations coup de coeur et bénéficiez d'offres exclusives en vous inscrivant à notre newsletter.
+                        </p>
+                        <form>
+                            <input type="text" name="inscriptions" id="inscription" placeholder="Saissez votre e-mail">
+                            <input type="submit" value="abonnement" class="ml-3">
+                        </form>
+                    </div>
+                    <ul class="footer-other col-md-4 mb-4 order-md-first text-md-left">
+                        <li><a href="">Livre d'or</a></li>
+                        <li><a href="">Carrière</a></li>
+                        <li><a href="">Contacts</a></li>
+                        <li><a href="">Politique de Confidentialité</a></li>
+                        <li><a href="">Termes & Conditions</a></li>
+                    </ul>
+                    <address class="adresse col-md-4 mb-4 text-md-right">
+                        <p>Hotel cop</p>
+                        <p>1 avenue Montaigne</p>
+                        <p>75008 Paris</p>
+                        <p>+335844123</p>
+                        <a href="https://www.google.com/maps/place/1+Avenue+Montaigne,+75008+Paris/@48.8650712,2.2998897,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fdd0dd39a4d:0x508194b82b12f012!8m2!3d48.8650712!4d2.3020784" target="_blank">Voir la Carte</a>
+                    </address>
+                    <div class="liste-reseau-sociaux col-md-12 mb-4">
+                        <a href="#" target="_blank"><img src="images/trame/circle-facebook.svg" class="col-md-3" alt="Facebook"></a>
+                        <a href="#" target="_blank"><img src="images/trame/circle-instagram.svg" class="col-md-3" alt="Instagram"></a>
+                        <a href="#" target="_blank"><img src="images/trame/circle-twitter.svg" class="col-md-3" alt="Twitter"></a>
+                        <a href="#" target="_blank"><img src="images/trame/circle-linkedin.svg" class="col-md-3" alt="linkedin"></a>
+                        <a href="#" target="_blank"><img src="images/trame/circle-youtube.svg" class="col-md-3" alt="youtube"></a>
+                        <a href="#" target="_blank"><img src="images/trame/circle-whatsapp.svg" class="col-md-3" alt="whatsapp"></a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© 2020 Hotel Cop, Paris Tous droits réservés</p>
+                </div>
+            </div>
+         </footer>
+    </body>
+</html>

@@ -1,0 +1,197 @@
+/* --------- GENERAL --------- */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article,aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; 
+	padding: 0;
+	border: 0;
+	font: inherit;
+    vertical-align: baseline;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html{font-size: 65%;}
+
+body{
+    background: white;
+    box-sizing: border-box;
+    margin-top: 52px; /*taille du menu fixed*/
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: center;
+}
+
+p{
+    color: #4c4c4c;
+    font-family: 'Judson', serif;
+}
+
+
+a{color: black;}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+.gold{color: #b0a06c;}
+
+h1{font-size: 4rem;}
+h2{
+    font-size: 3.2rem;
+    background: white;
+}
+
+
+
+/* --- MENU --- */
+
+
+.menu li{
+    padding: 0 15px;
+    font-size: 1.15rem;
+}
+
+
+    /* --- Première nav (noir) --- */
+
+.menu .nav1{
+    width: 100%;
+    background: #4c4c4c;
+}
+
+.menu .nav1 .centre{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 42px;
+}
+
+.menu .nav1 li{border-left: solid white 1px;}
+.menu .nav1 .border-right{border-right: solid white 1px;}
+.menu .nav1 .decalage{width: 191.75px;}
+.menu .nav1 a{color: white;}
+.menu .nav1 .maps{height: 1.2rem;}
+
+.menu .loupe2{
+    height: 1.1rem;
+    margin-right: 10px;
+}
+
+
+    /* --- Seconde nav (blanc) --- */
+
+.menu .fond{
+    box-shadow: 0 4px 1em black;
+    position : relative; /*Pour positionner des éléments en position:absolute*/
+    background: white;
+}
+
+.menu .nav2{
+    padding: 0;
+    margin: 0;
+    height: 52px;
+    background: white;
+}
+
+.menu .reserver{
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 52px;
+    padding: 0 20px;
+    background: #b0a06c;
+    font-size: 2em;
+    color: white;
+    display: none;
+}
+
+.menu .navbar-toggler{border: none;}
+
+.menu .loupe{
+    height: 3rem;
+    margin: 10px 10px 0;
+}
+
+.menu .logo{
+    position: absolute;
+    top: 0;
+    margin: 12px 43%;
+    font-size: 2rem;
+}
+
+.menu .recherche{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: solid 1px;
+    display: block;
+    height: 100%;
+}
+
+
+
+
+/* --- HEADER --- */
+
+header{
+    height: calc(100vh - 94px);
+    background: url(../images/accueil/accueil.jpg) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header div{align-items : center;}
+
+header .en-tete{background: white;}
+
+.partage{height: 1.4rem;}
+
+header h1{margin-top: 2rem;}
+header a{margin-bottom: 1rem;}
+
+
+
+
+/* --- FOOTER --- */
+
+.footer{
+    background-color: #4c4c4c; 
+    padding: 2rem 2rem 0;
+    line-height: 1.5rem;  
+}
+
+footer p{color: #b9b9b4;}
+
+footer .footer-other, footer .adresse{
+    line-height: 2rem;
+
+}
+
+footer .newsletter input{border-color: transparent;}
+footer .liste-reseau-sociaux img{width: 5rem;}
+footer .copyright{font-size: 0.8rem;}
+a{color:#b9b9b4;}
+
+
+
+/* --- RESPONSIVE --- */
+
+@media (min-width: 576px) {
+
+}
+  
+@media (min-width: 768px) {   
+    html{font-size: 70%;}
+    body{margin-top: 94px;} /*hauteur des menus fixed*/
+}
+
+@media (min-width: 992px) {
+    html{font-size: 85%;}
+}
+
+@media (min-width: 1200px) {
+    html{font-size: 100%;}
+
+}
